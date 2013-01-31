@@ -46,7 +46,9 @@ class BeerSong
 	end
 
 	private
-
+	def sing(song='')
+		"#{(@bottles > 0 ? @bottles : 'no more'} #{(@bottles == 1) ? 'bottle' : 'bottles'} of beer" + song
+	end
 
 =begin rdoc
 	Destructive method named with a bang. Decrements the numbers of bottles count. It may return some string or numerical value depending on your logic.
