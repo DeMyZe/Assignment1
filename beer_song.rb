@@ -25,7 +25,7 @@ class BeerSong
 =end
 
 	def initialize(num_of_bottles)
-		
+		@bottles = num_of_bottles
 	end
 
 =begin rdoc
@@ -46,6 +46,7 @@ class BeerSong
 	end
 
 	private
+
 
 =begin rdoc
 	Destructive method named with a bang. Decrements the numbers of bottles count. It may return some string or numerical value depending on your logic.
