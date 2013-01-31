@@ -33,7 +33,7 @@ class BeerSong
 =end
 
 	def empty?()
-		
+		@bottles.zero?
 	end
 
 
