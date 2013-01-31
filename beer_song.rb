@@ -42,7 +42,7 @@ class BeerSong
 =end
 
 	def sing_one_verse!()
-		
+		puts sing(' on the wall, ') + sing("\n") + take_one_down! + sing(" on the wall.\n\n")
 	end
 
 	private
