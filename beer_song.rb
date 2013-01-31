@@ -55,6 +55,7 @@ class BeerSong
 =end
 
 	def take_one_down!()
-		
+		@bottles -= 1
+		'take one down, pass it around, '
 	end
 end
